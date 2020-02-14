@@ -1,0 +1,66 @@
+@import '../../../assets/styles/global.less';
+
+.flex-1 {
+  flex: 1;
+}
+
+.article {
+  .submit {
+    position: fixed;
+    right: 80px;
+    bottom: 90px;
+  }
+
+  .save {
+    position: fixed;
+    right: 80px;
+    bottom: 40px;
+  }
+
+  .marked-box {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    margin-left: 6px;
+    background-color: rgba(0, 0, 0, 0.016);
+
+    pre {
+      display: block;
+      background-color: #f3f3f3;
+      padding: .5rem !important;
+      overflow-y: auto;
+      font-weight: 300;
+      font-family: Menlo, monospace;
+      border-radius: .3rem;
+    }
+
+    pre {
+      background-color: #283646 !important;
+    }
+
+    pre>code {
+      border: 0px !important;
+      background-color: #283646 !important;
+      color: #FFF;
+
+    }
+
+    code {
+      display: inline-block;
+      background-color: #f3f3f3;
+      // border: 1px solid #fdb9cc;
+			box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 1px 1px;
+
+      border-radius: 3px;
+      font-size: 12px;
+      padding-left: 5px;
+      padding-right: 5px;
+      color: #4f4f4f;
+      margin: 0px 3px;
+
+    }
+
+    iframe {
+      height: 34rem;
+    }
+  }
+}
